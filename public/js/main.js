@@ -1,4 +1,5 @@
 const chatForm = document.getElementById("chat-form");
+const chatMesseges = document.querySelector(".chat-messages");
 
 const socket = io();
 
@@ -6,6 +7,9 @@ const socket = io();
 socket.on("msg", (msg) => {
   console.log(msg);
   outputMessage(msg);
+
+  //   scroll down
+  chatMesseges.scrollTop = chatMesseges.scrollHeight;
 });
 
 // msg submit
@@ -17,6 +21,10 @@ chatForm.addEventListener("submit", (e) => {
 
   //   emit msg to the server
   socket.emit("chatMsg", msg);
+
+  //   clear input
+  e.target.elements.msg.value = "";
+  e.target.elements.msg.focus();
 });
 
 // output msg to DOM
