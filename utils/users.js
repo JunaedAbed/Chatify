@@ -1,3 +1,5 @@
+// todo --> connect to firebase
+
 const users = [];
 
 // join user to chat
