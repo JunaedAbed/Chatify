@@ -1,0 +1,9 @@
+Planing for this app ->
+1. Adding custom room name --> done
+2. changing css
+3. integrate Login system
+4. integrate firebase 
+5. add spotify
+6. enable listening together
+7. add youtube listening
+8. add background extra sound i.e cafe
