@@ -126,8 +126,14 @@ a {
 .chat-messages .message {
   padding: 10px;
   margin-bottom: 15px;
-  background-color: var(--light-color);
+  /* background-color: #777; */
+
+  outline: none;
+  border: none;
+  color: #595959;
   border-radius: 5px;
+  background: #dde1e7;
+  box-shadow: 7px 7px 19px #d0d4d9, -7px -7px 19px #eaeff5;
 }
 
 .chat-messages .message .meta {
@@ -155,11 +161,7 @@ a {
   padding: 5px;
   height: 50px;
   flex: 1;
-
-  /* height: 100%; */
-  /* width: 100%; */
-  padding-left: 45px;
-  /* font-size: 18px; */
+  padding-left: 30px;
   outline: none;
   border: none;
   color: #595959;

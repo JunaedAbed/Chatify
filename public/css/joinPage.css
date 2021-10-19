@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins&display=swap");
 
 :root {
-  
 }
 
 * {
@@ -16,7 +15,7 @@ body {
   place-items: center;
   background: #dde1e7;
   text-align: center;
-	margin: none;
+  margin: none;
   height: 100vh;
   width: 100vw;
   overflow: hidden;
@@ -57,19 +56,19 @@ body {
 
 .join-main label {
   position: absolute;
-	top: 50%;
-	left: 45px;
-	pointer-events: none;
-	color: #666666;
-    transform: translateY(-50%);
+  top: 50%;
+  left: 45px;
+  pointer-events: none;
+  color: #666666;
+  transform: translateY(-50%);
 }
 
-.form-control input:focus ~ label{
-	color: var(--dark-color-a);
+.form-control input:focus ~ label {
+  color: var(--dark-color-a);
 }
 
-.form-control input:valid ~ label{
-	opacity: 0;
+.form-control input:valid ~ label {
+  opacity: 0;
 }
 
 .join-main input[type="text"] {
@@ -93,32 +92,30 @@ body {
   margin-top: 20px;
 }
 
-.form-control i{
-	position: absolute;
-	width: 50px;
-	line-height: 50px;
-	color: #595959;
-	margin-left: : 10px;
+.form-control i {
+  position: absolute;
+  width: 50px;
+  line-height: 50px;
+  color: #595959;
+  margin-left: 10px;
 }
 
 .join-main .btn {
   margin: 15px 0;
-	width: 100%;
-	height: 50px;
-	color: #595959;
-	font-size: 17px;
-	font-weight: 550;
-	background: #dde1e7;
-	border: none;
-	outline: none;
-	border-radius: 25px;
-	cursor: pointer;
-	box-shadow: 2px 2px 5px #babecc,
-	            -5px 5px 10px #ffffff73;
+  width: 100%;
+  height: 50px;
+  color: #595959;
+  font-size: 17px;
+  font-weight: 550;
+  background: #dde1e7;
+  border: none;
+  outline: none;
+  border-radius: 25px;
+  cursor: pointer;
+  box-shadow: 2px 2px 5px #babecc, -5px 5px 10px #ffffff73;
 }
 
-.join-main .btn:hover{
-	color: #3498db;
-	box-shadow: inset 2px 2px 5px #babecc,
-	            inset -5px 5px 10px #ffffff73;
+.join-main .btn:hover {
+  color: #3498db;
+  box-shadow: inset 2px 2px 5px #babecc, inset -5px 5px 10px #ffffff73;
 }
